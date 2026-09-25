@@ -1,0 +1,28 @@
+@import "./base.css";
+
+:root {
+  color-scheme: light;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main,
+section,
+article,
+header,
+footer,
+nav {
+  display: block;
+}
+
+body {
+  background: linear-gradient(180deg, #fffafc 0%, #fff2f5 100%);
+}
+
+button,
+a {
+  transition: all 0.25s ease;
+}
